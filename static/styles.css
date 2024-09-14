@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    background-color: gray;
+    overflow: hidden;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video-container {
+    width: 95vw;
+    height: auto;
+    max-height: 95vh;
+}
+
+video {
+    width: 100%;
+    height: auto;
+    max-height: 95vh;
+    object-fit: cover;
+}

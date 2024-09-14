@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Throw City</title>
+    <link rel="icon" href="{{ url_for('static', filename='favicon.png') }}" type="image/x-icon">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="video-container">
+        <video autoplay loop muted controls>
+            <source src="{{ url_for('static', filename='tmv-falls.mp4') }}" type="video/mp4">
+        </video>
+    </div>
+</body>
+</html>
